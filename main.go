@@ -6,6 +6,10 @@ import (
 	"os"
 )
 
+type mes struct {
+	a int
+}
+
 func main() {
 	r := SUB.Add(10, 20)
 	fmt.Println("A=", r)
