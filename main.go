@@ -12,5 +12,6 @@ func main() {
 	cmds := os.Args
 	for key, value := range cmds {
 		fmt.Println("key=", key, "value=", value)
+		fmt.Println("*********")
 	}
 }
